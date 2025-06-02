@@ -1,0 +1,16 @@
+﻿<Window x:Class="kolok.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kolok"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Button x:Name="Gabinets" Content="Gabinety" Click="GabinetyClick" HorizontalAlignment="Left" Margin="98,86,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.561,0.607" Height="78" Width="106"/>
+            <Button x:Name="Pracowniks" Content="Pracowniki" Click="PracownikiClick" HorizontalAlignment="Left" Margin="264,86,0,0" VerticalAlignment="Top" Height="78" Width="121"/>
+        </Grid>
+
+    </Grid>
+</Window>

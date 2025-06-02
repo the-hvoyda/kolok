@@ -1,0 +1,18 @@
+﻿<Window x:Class="kolok.DodajPrac"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kolok"
+        mc:Ignorable="d"
+        Title="DodajPrac" Height="450" Width="800">
+    <Grid>
+        <Label Content="Imie" HorizontalAlignment="Left" Margin="23,32,0,0" VerticalAlignment="Top" Height="29" Width="38"/>
+        <TextBox Text="{Binding ImieText}" Name="ImieTextBox" HorizontalAlignment="Left" Height="29" Margin="66,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125"/>
+        <Label Content="Nazwisko" HorizontalAlignment="Left" Height="28" Margin="23,75,0,0" VerticalAlignment="Top" Width="63"/>
+        <TextBox Text="{Binding NazwiskoText}" Name="NazwiskoTextBox" HorizontalAlignment="Left" Margin="101,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" Height="28"/>
+        <Button x:Name="przycisk1" Click="przycisk" Content="Dodaj" HorizontalAlignment="Left" Height="31" Margin="42,217,0,0" VerticalAlignment="Top" Width="105"/>
+        <TextBox Text="{Binding Rok}" Name="RokText" HorizontalAlignment="Left" Height="39" Margin="101,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153"/>
+
+    </Grid>
+</Window>
